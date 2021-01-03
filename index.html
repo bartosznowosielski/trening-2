@@ -4,51 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strona treningowa</title>
-    <link rel="stylesheet" type="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" type="stylesheet" href="css/style.css">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <header>
-        <h1>Strona treningowa</h1>
-        <nav>
+    <header class="header">
+        <h1 class="header__title">Strona treningowa</h1>
+        <nav class="header__nav">
            <ul>
-               <li>
-                   <a href="#">Link 1</a>
+               <li class="header__nav--button">
+                   <a href="#" class="header__nav--link">Link 1</a>
                </li>
-               <li>
-                   <a href="#">Link 2</a>
+               <li class="header__nav--button">
+                   <a href="#" class="header__nav--link">Link 2</a>
                </li>
-               <li>
-                   <a href="#">Link 3</a>
+               <li class="header__nav--button">
+                   <a href="#" class="header__nav--link">Link 3</a>
                </li>      
            </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <article>
-                <h2>Artykuł 1</h2>
-                <p>
+        <section class="mainSection">
+            <article class="mainSection__article">
+                <h2 class="mainSection__article--title">Artykuł 1</h2>
+                <p class="mainSection__article--text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus expedita, itaque inventore aperiam quod harum? Est quaerat architecto incidunt corporis labore! Dicta quam saepe corporis.
                 </p>
             </article>
-            <article>
-                <h2>Artykuł 2</h2>
-                <p>
+            <article class="mainSection__article">
+                <h2 class="mainSection__article--title">Artykuł 2</h2>
+                <p class="mainSection__article--text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus expedita, itaque inventore aperiam quod harum? Est quaerat architecto incidunt corporis labore! Dicta quam saepe corporis.
                 </p>
             </article>
-            <article>
-                <h2>Artykuł 3</h2>
-                <p>
+            <article class="mainSection__article">
+                <h2 class="mainSection__article--title">Artykuł 3</h2>
+                <p class="mainSection__article--text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus expedita, itaque inventore aperiam quod harum? Est quaerat architecto incidunt corporis labore! Dicta quam saepe corporis.
                 </p>
             </article>
         </section>
-        <aside>
-            <h3>Kontakt</h3>
-            <form action="https://dev.cotenfrontend.pl" method="POST">
+        <aside class="mainAside">
+           <article class="mainAside__article">
+            <h3 class="mainAside__article--title">Kontakt</h3>
+            <form action="https://dev.cotenfrontend.pl" method="POST" class="mainAside__article--form">
                 <fieldset>
                     <legend>Skontaktuj się z nami</legend>
                         <p>
@@ -80,23 +81,23 @@
                         </p>
                 </fieldset>
             </form>
-
+        </article>
         </aside>
     </main>
 
-    <footer>
-        <section>
-            <article>
-                <h4>Adres:</h4>
-                <p>
+    <footer class="footer">
+        <section class="footerSection">
+            <article class="footerSection__article">
+                <h4 class="footerSection__article--title">Adres:</h4>
+                <p class="footerSection__article--text"> 
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus expedita, itaque inventore aperiam quod harum? Est quaerat architecto incidunt corporis labore! Dicta quam saepe corporis.
                 </p>
             </article>
         </section>
-        <aside>
-            <article>
-                <h4>Social media</h4>
-                <p>
+        <aside class="footerAside"> 
+            <article class="footerAside__article">
+                <h4 class="footerAside__article--title">Social media</h4>
+                <p class="footerAside__article--text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus expedita, itaque inventore aperiam quod harum? Est quaerat architecto incidunt corporis labore! Dicta quam saepe corporis.
                 </p>
             </article>

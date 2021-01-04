@@ -10,7 +10,7 @@
 <body>
     <header class="header">
         <h1 class="header__title">Strona treningowa</h1>
-        <nav class="header__nav">
+        <nav class="header__nav navigation--js">
            <ul>
                <li class="header__nav--button">
                    <a href="#" class="header__nav--link">Link 1</a>
@@ -20,18 +20,28 @@
                </li>
                <li class="header__nav--button">
                    <a href="#" class="header__nav--link">Link 3</a>
-               </li>      
+               </li>   
+               <li class="header__nav--button">
+                <a href="#" class="header__nav--link">Link 3</a>
+            </li>  
+            <li class="header__nav--button">
+                <a href="#" class="header__nav--link">Link 3</a>
+            </li>  
+            <li class="header__nav--button">
+                <a href="#" class="header__nav--link">Link 3</a>
+            </li>     
            </ul>
         </nav>
+        <button class="hamburger hamburger--js">Menu</button>
     </header>
 
         <section class="mainSection">
             <article class="mainSection__article">
-                <h2 class="mainSection__article--title">Artykuł 1</h2>
+                <h2 class="mainSection__article--title change--js">Artykuł 1</h2>
                 <p class="mainSection__article--text">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus expedita, itaque inventore aperiam quod harum? Est quaerat architecto incidunt corporis labore! Dicta quam saepe corporis.
                 </p>
-                <button action="action--js">Zmień artykuł</button>
+                <button class="action--js">Zmień artykuł</button>
             </article>
             <article class="mainSection__article">
                 <h2 class="mainSection__article--title">Artykuł 2</h2>
@@ -104,5 +114,6 @@
             </article>
         </aside>
     </footer>
+    <script src="js/main.js"></script>   
 </body>
 </html>

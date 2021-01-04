@@ -46,6 +46,10 @@ body {
     color: #283040;
 }
 
+.hamburger {
+    display: none;
+}
+
 .mainSection {
     background-color: #F2CBBD;
     grid-area: section;
@@ -166,7 +170,13 @@ body {
         color: #C7CFD9;
     }
     
-    .header__nav {}
+    .header__nav {
+        display: none;
+    }
+
+    .navigation--open {
+        display: block;
+    }
     
     .header__nav--button {
         display: inline-block;
@@ -179,6 +189,10 @@ body {
         text-decoration: none;
         display: inline-block;
         color: #283040;
+    }
+
+    .hamburger {
+        display: block;
     }
     
     .mainSection {
